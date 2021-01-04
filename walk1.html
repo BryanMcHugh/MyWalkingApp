@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Walk 1</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+<head>
+<style type="text/css">
+
+#track {
+    list-style: none;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#tracker {
+    list-style: none;
+    height: 100px;
+}
+
+#top {
+    padding-right: 50px;
+}
+
+#parent > li {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+#mid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#bot {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+          <p>MY WALKING APP</p>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="user.html">User</a></li>
+            </ul>
+        </header>
+
+<div align="center">
+<ul id="parent">
+    <li id="top"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d486.44996268801617!2d-6.260003121486919!3d53.34749524841158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1609690602206!5m2!1sen!2sie" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="Map"></iframe></li>
+    <li>
+        <ul id="track">
+        <li><ul id="tracker"><li>4:37</li><li>Duration</li></ul></li>
+        <li><ul id="tracker"><li>1.2 km</li><li>Distance</li></ul></li>
+        </ul>
+    </li>
+</ul>
+</div>
+
+<div align="center">
+<ul id="parent">
+    <li id="mid"><ul id="tracker"><li>1355</li><li>Steps</li></ul></li>
+    <li id="mid"><ul id="tracker"><li>3°</li><li>Incline</li></ul></li>
+    <li id="mid"><ul id="tracker"><li>Novice</li><li>Difficulty</li></ul></li>
+    <li id="mid"><ul id="tracker"><li>3.8 km</li><li>Distance Left</li></ul></li>
+    <li id="mid"><ul id="tracker"><li>1°C</li><li>Temperature</li></ul></li>
+</ul>
+</div>
+
+<div align="center">
+<ul id="parent">
+    <li id="bot"><button type="button" class="walkbutton">Start</button></li>
+    <li id="bot"><button type="button" class="walkbutton">Pause</button></li>
+    <li id="bot"><button type="button" class="walkbutton">Stop</button></li>
+</ul>
+</div>
+
+</body>
+</html>
