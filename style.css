@@ -171,3 +171,71 @@ input[type="text"]::placeholder
 .btn-cover {
   padding-top: 10px;
 }
+
+#track {
+    list-style: none;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#tracker {
+    list-style: none;
+    height: 100px;
+}
+
+#top {
+    padding-right: 50px;
+}
+
+#parent > li {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+#mid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#bot {
+    padding-right: 50px;
+    padding-left: 50px;
+}#track {
+    list-style: none;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#tracker {
+    list-style: none;
+    height: 100px;
+}
+
+#top {
+    padding-right: 50px;
+}
+
+#parent > li {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+#mid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#bot {
+    padding-right: 50px;
+    padding-left: 50px;
+}
